@@ -42,3 +42,10 @@ namespace EmailApp
         }
     }
 }
+
+// Google:
+// https://www.google.com/settings/security/lesssecureapps & set to "Turn On"
+// client.Connect("smtp.gmail.com", 587);
+// client.AuthenticationMechanisms.Remove("XOAUTH2");
+// client.Authenticate(_userName, _password);
+
